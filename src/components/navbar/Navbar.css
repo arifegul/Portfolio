@@ -1,0 +1,28 @@
+
+nav a.nav-link{
+    font-size: .8rem;
+    letter-spacing:0.0375rem;
+    cursor: pointer;
+  }
+  
+  nav ul li {
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    color: var(--primary-black) !important;
+    border-top: 0.18rem solid var(--primary-white);
+  }
+  
+  .navbar-nav > li > a.active, .navbar-nav >li > a.active:focus {
+    border-top: 0.18rem solid var(--primary-pink);
+  }
+  
+  .navbar-nav > li > a:hover {
+    border-top: 0.18rem solid var(--primary-pink);
+  }
+  
